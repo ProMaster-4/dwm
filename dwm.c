@@ -1,3 +1,5 @@
+// CUSTOM BUILD OF DWM BY ProMaster_4: https://github.com/ProMaster-4/dwm
+
 /* See LICENSE file for copyright and license details.
  *
  * dynamic window manager is designed like any other X client as well. It is
