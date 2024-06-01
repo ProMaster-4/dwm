@@ -31,6 +31,7 @@ static const char *colors[][3]      = {
 
 static const char *const autostart[] = {
 
+	"xrandr", "--output", "DP-4", "--mode", "1920x1080", "--rate", "240", NULL, 
 	"sh", "-c", "feh --bg-fill ~/.wallpapers/0kvzhru1ncua1.jpg", NULL,
 	"picom", "--no-vsync", NULL,
 	"dunst", NULL,
@@ -52,8 +53,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "lol",      NULL,       NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
